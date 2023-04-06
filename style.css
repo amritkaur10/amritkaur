@@ -90,6 +90,8 @@ header .icon {
 
 .front img {
     border-radius: 20%;
+    height: 80%;
+    /* width: 80%; */
 }
 
 .front h3 {
@@ -124,7 +126,7 @@ header .icon {
 }
 
 .about img {
-    border-radius: 50%;
+    border-radius: 15%;
     /* width: 90%; */
 }
 
@@ -363,6 +365,14 @@ header .icon {
     }
 }
 
+
+@media screen and (min-width:320px) and (max-width:425px){
+    .front img{
+        height: 90%;
+    }
+}
+
+
 @media screen and (min-width:426px) and (max-width: 767px) {
     .front {
         padding-top: 2rem;
@@ -386,6 +396,9 @@ header .icon {
 
     #parent_nav {
         display: block;
+    }
+     .front img {
+        height: 90%;
     }
 
 
